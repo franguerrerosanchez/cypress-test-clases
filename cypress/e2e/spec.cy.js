@@ -10,4 +10,23 @@ describe('Pruebas heroku app', () => {
     cy.get('#flash').contains("You logged into a secure area")
 
   })
+
+  it('login con usuario invalido y contraseña valida', () => {
+    //RELLENAR ESTE TEST
+
+
+  })
+
+  it('login con usuario valido y contraseña invalida', () => {
+    //RELLENAR ESTE TEST
+
+
+  })
+
+  it('login con usuario invalido y contraseña inválida', () => {
+    //RELLENAR ESTE TEST
+
+
+  })
+
 })
